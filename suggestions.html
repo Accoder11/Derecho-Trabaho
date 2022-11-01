@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Suggestions Form</title>
+    <style>
+      table th {
+        float: left;
+        margin: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Do You Have Any Suggestions?</h1>
+    <br>
+    <form action="#">
+      <table>
+        <tr>
+        <th>
+            <label for="first name"> First Name: </label>
+        </th>
+        <td>
+            <input type="text" name="first name" required/>
+        </td>
+        </tr>
+        <tr>
+        <th>
+            <label for="last name"> Last Name: </label>
+        </th>
+        <td>
+            <input type="text" name="last name" required/>
+        </td>
+        </tr>
+        <tr>
+        <th>
+            <label for="email"> Email: </label>
+        </th>
+        <td>
+            <input type="email" name="email" required/>
+        </td>
+        </tr>
+        <tr>
+        <th>
+            <label for="cuisine"> Cuisine </label>
+        </th>
+        <!-- select option -->
+        <td>
+            <select name="cuisine" id="cuisine">
+            <option value="">Select Cuisine</option>
+            <option value="1">Asian</option>
+            <option value="2">European</option>
+            <option value="3">African</option>
+            <option value="4">American</option>
+        </td>
+        </tr>
+            </select>
+        <tr>
+        <th>
+            <label for="recipe name"> Recipe Name: </label>
+        </th>
+        <td>
+            <input type="text" name="recipe name" required/>
+        </td>
+        </tr>
+        <!-- textarea-->
+        <tr>
+        <th>
+            <label for="ingredients and steps" id="ingredients" >Ingredients and Steps:</label>
+        </th>
+        <td>
+            <textarea id="ingredients and steps" name="ingredients and steps" value="ingredients and steps" rows="4" cols="30" placeholder="ingredients" required>
+            </textarea>
+        </td>
+        </tr>
+        <!-- submit and reset -->
+        <tr>
+            <th></th>
+        <td>
+            <input type="submit" value="Submit" id="submit" />
+            <input type="reset" value="Reset" id="reset" />
+        </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
