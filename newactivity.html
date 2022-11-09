@@ -4,11 +4,26 @@
     <title>Suggestions Form1</title>
     <style>
         body {
-            background-color: aquamarine;
+            font-size: 100%;
+            font-family: Verdana, Tahoma, sans-serif;
         }
         div {
-            background-color: antiquewhite;
+            margin: auto;
         }
+        table {
+            background-color:rgb(180, 174, 174);
+            padding: 2em;
+           
+        }
+        input, textarea {
+            font-size: large;
+            margin: auto;}
+
+        a{
+            margin: auto;
+        }
+    
+
     </style>
   </head>
   <body>
@@ -21,31 +36,31 @@
         <tr>
         <td>
             <label for="first name"> First Name: </label>
-        </th>
+        </td>
         <td>
             <input type="text" name="first name" required/>
         </td>
         </tr>
         <tr>
-        <th>
+        <td>
             <label for="last name"> Last Name: </label>
-        </th>
+        </td>
         <td>
             <input type="text" name="last name" required/>
         </td>
         </tr>
         <tr>
-        <th>
+        <td>
             <label for="email"> Email: </label>
-        </th>
+        </td>
         <td>
             <input type="email" name="email" required/>
         </td>
         </tr>
         <tr>
-        <th>
+        <td>
             <label for="cuisine"> Cuisine </label>
-        </th>
+        </td>
         <!-- select option -->
         <td>
             <select name="cuisine" id="cuisine">
@@ -58,25 +73,25 @@
         </tr>
             </select>
         <tr>
-        <th>
+        <td>
             <label for="recipe name"> Recipe Name: </label>
-        </th>
+        </td>
         <td>
             <input type="text" name="recipe name" required/>
         </td>
         </tr>
         <!-- textarea-->
         <tr>
-        <th>
+        <td>
             <label for="ingredients and steps" id="ingredients" >Recipe:</label>
-        </th>
+        </td>
         <td>
             <textarea name="ingredients" id="ingredients" cols="30" rows="10" placeholder="Send your suggestions!"></textarea>
         </td>
         </tr>
         <!-- submit and reset -->
         <tr>
-            <th></th>
+            <td></td>
         <td>
             <input type="submit" value="Submit" id="submit" />
             <input type="reset" value="Reset" id="reset" />
