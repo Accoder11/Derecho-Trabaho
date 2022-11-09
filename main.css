@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/9330711/1820/1213/m1/fpnw/wm1/wpq5rjbvkl3mvffb6kq95dc6cgozr3d61atoweeyzhd5dte9ronhun23iqbz2a1m-.jpg?1604347264&s=85b5a47a9db949752811c6d6cdd16a55);
+    background-repeat:inherit;
+    font-size: 100%;
+    
+
+font-family: 'Rubik Bubbles', cursive;
+font-family: 'Poor Story', cursive;
+font-family: 'PT Serif', serif;
+}
+h1 {
+    text-transform: uppercase;
+}
+.title {
+    color: blue;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+.row  {
+    background-color: red;
+}
+
+#secondTable {
+    color: rgb(248, 163, 6)
+}
+div {
+    margin: auto;
+}
+table {
+    background-color:rgb(180, 174, 174);
+    padding: 2em;
+}
+
+input, textarea {
+    font-size: large;
+    color: white;
+    margin: auto;
+    background-color: black;
+}
+
+a{
+    margin: auto;
+}
+.description {
+    text-align: justify;
+    text-indent: 40px;
+    text-transform: capitalize;
+}

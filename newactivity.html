@@ -2,38 +2,21 @@
 <html lang="en">
   <head>
     <title>Suggestions Form1</title>
-    <style>
-        body {
-            font-size: 100%;
-            font-family: Verdana, Tahoma, sans-serif;
-        }
-        div {
-            margin: auto;
-        }
-        table {
-            background-color:rgb(180, 174, 174);
-            padding: 2em;
-           
-        }
-        input, textarea {
-            font-size: large;
-            margin: auto;}
-
-        a{
-            margin: auto;
-        }
-    
-
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poor+Story&family=Rubik+Bubbles&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-    <h1>Send in your Suggestions?</h1>
+    <div class="title">
+        <header id="header">
+    <h1 >Send in your Suggestions?</h1>
+</header>
     <br>
     <form action="#">
       <table>
         <tbody>
-        <tr>
+        <tr class="row">
         <td>
             <label for="first name"> First Name: </label>
         </td>
@@ -41,7 +24,7 @@
             <input type="text" name="first name" required/>
         </td>
         </tr>
-        <tr>
+        <tr class="row title">
         <td>
             <label for="last name"> Last Name: </label>
         </td>
@@ -57,7 +40,7 @@
             <input type="email" name="email" required/>
         </td>
         </tr>
-        <tr>
+        <tr class="row title">
         <td>
             <label for="cuisine"> Cuisine </label>
         </td>
@@ -72,7 +55,7 @@
         </td>
         </tr>
             </select>
-        <tr>
+        <tr class="row title">
         <td>
             <label for="recipe name"> Recipe Name: </label>
         </td>
@@ -101,9 +84,15 @@
       </table>
     </form>
 </div>
+
+<p class="description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptatibus, ipsum alias voluptatem porro at explicabo quisquam culpa veritatis dolor doloribus beatae possimus voluptas similique cum repellendus minima, a nulla!
+    Voluptatem maxime ullam eius id sit illum fuga excepturi itaque doloribus, dolores aperiam harum a et quaerat unde iste quasi vitae quia, accusamus, minima ducimus molestias fugiat? Tempora, beatae qui.
+   
+</p>
     <br>
-        <a href="index.html">
-            <p>Back to Home</p>
+        <a href="#header">
+            <p>Back to Top</p>
         </a>
   </body>
 </html>
