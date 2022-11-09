@@ -1,0 +1,28 @@
+body {
+    font-size: 100%;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+header {
+    border: 1px solid white;
+}
+h1,h2 {
+    color: blue;
+}
+div {
+    margin: auto;
+    
+}
+    
+table {
+    background-color:rgb(180, 174, 174);
+    padding: 2em;
+   
+}
+input, textarea {
+    font-size: large;
+    margin: auto;}
+
+a{
+    margin: auto;
+}
