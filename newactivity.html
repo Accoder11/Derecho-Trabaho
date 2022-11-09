@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <title>Suggestions Form1</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+        div {
+            background-color: antiquewhite;
+        }
+    </style>
   </head>
   <body>
+    <div>
     <h1>Send in your Suggestions?</h1>
     <br>
     <form action="#">
@@ -12,25 +21,33 @@
         <tr>
         <td>
             <label for="first name"> First Name: </label>
+        </th>
+        <td>
             <input type="text" name="first name" required/>
         </td>
         </tr>
         <tr>
-        <td>
+        <th>
             <label for="last name"> Last Name: </label>
+        </th>
+        <td>
             <input type="text" name="last name" required/>
         </td>
         </tr>
         <tr>
-        <td>
+        <th>
             <label for="email"> Email: </label>
+        </th>
+        <td>
             <input type="email" name="email" required/>
         </td>
         </tr>
         <tr>
-        <td>
+        <th>
             <label for="cuisine"> Cuisine </label>
+        </th>
         <!-- select option -->
+        <td>
             <select name="cuisine" id="cuisine">
             <option value="">Select Cuisine</option>
             <option value="1">Asian</option>
@@ -68,6 +85,7 @@
       </tbody>
       </table>
     </form>
+</div>
     <br>
         <a href="index.html">
             <p>Back to Home</p>
