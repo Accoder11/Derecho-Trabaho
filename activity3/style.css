@@ -1,12 +1,56 @@
 body {
-    background: #c2c2ef;
+    background: #dcdcf5;
+
 }
 header {
     background: #3a3ade;
-    height: 70px;
+    height: 50px;
     border: 1px solid black;
+    padding: 1em;
 }
 .main {
-    color: red;
-    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+p, h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.recipe {
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: whitesmoke;
+    padding: 1em;
+}
+input {
+    padding: 0.5em;
+
+}
+.tableTitle, .recipeTitle {
+    text-align: center;
+    font-size: 2rem;
+}
+.suggestions {
+    background-image: url(https://www.mccormick.com.ph/storage/tips/1/banner_image-6-effective-cooking-tips-every-beginner-should-know-20200820023911.jpg);
+    background-repeat: no-repeat;
+}
+table {
+    width: auto;
+    border: 1px solid black;
+    padding: 1em;
+    margin: auto;
+    background: #050537;
+}
+label {
+    color: white;
+}
+button {
+    float: right;
+    border-radius: 1em;
+    padding: 1rem;
+    margin-bottom: 1em;
+}
+a {
+    text-decoration: none;
 }
