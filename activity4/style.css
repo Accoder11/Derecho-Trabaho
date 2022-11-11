@@ -18,10 +18,11 @@ p, h2, h3, h4 {
 }
 .recipe {
     border: 1px solid black;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 2px;
+    margin-bottom: 5px;
     background: whitesmoke;
-    padding: 1em;
+    padding: 30px;
+    clear: both;
 }
 input {
     padding: 0.5em;
@@ -53,4 +54,22 @@ button {
 }
 a {
     text-decoration: none;
+}
+.container {
+    background: pink;
+}
+.video {
+        border: solid red;
+        padding: 20px;
+        width: 50%;
+        margin-left: 10px;
+        display: inline;
+    
+    }
+.img {
+        border: solid red;
+        padding: 20px;
+        width: 50%;
+        margin-left: 10px;
+        display: inline;
 }
