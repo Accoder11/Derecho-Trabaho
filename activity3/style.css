@@ -1,28 +1,12 @@
 body {
-    font-size: 100%;
-    font-family: Verdana, Tahoma, sans-serif;
-    background-color: antiquewhite;
+    background: #c2c2ef;
 }
 header {
-    border: 1px solid white;
+    background: #3a3ade;
+    height: 70px;
+    border: 1px solid black;
 }
-h1,h2 {
-    color: blue;
-}
-div {
-    margin: auto;
-    
-}
-    
-table {
-    background-color:rgb(180, 174, 174);
-    padding: 2em;
-   
-}
-input, textarea {
-    font-size: large;
-    margin: auto;}
-
-a{
-    margin: auto;
+.main {
+    color: red;
+    align-items: center;
 }
