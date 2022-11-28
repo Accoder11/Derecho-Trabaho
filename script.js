@@ -1,3 +1,137 @@
+// var h1 = document.getElementById("greet");
+
+// // h1.innerHTML = "Good bye!"
+
+// var firstname = prompt("What's your name?")
+// // h1.innerHTML = firstname;
+
+// h1.innerHTML = h1.innerHTML + " " + firstname;
+
+// var p = document.getElementById("sentence");
+// p.style = "background-color: red; font-family: sans-serif";
+
+
+// var inputText = document.getElementById("username");
+// inputText.value = "Rolly";
+
+// console.log(inputText.value);
+
+// var num = "45";
+// console.log(Number(num) + 10);
+
+// var num = "45.20";
+// console.log(Number(num) + 10);
+
+// var day = 28;
+// var month = 11;
+// var year = 2022;
+
+// console.log(day.toString() + month.toString() + year.toString());
+
+// var firstname = "Juan dela Cruz";
+// console.log(firstname.length);
+// console.log(firstname[firstname.length-1]);
+
+// p.innerHTML = p.innerHTML.toUpperCase();
+// console.log(p.innerHTML);
+// console.log("Juan".toLowerCase() == "juan".toLowerCase)
+
+// var softDrinks = ["Coke", "Royal", "Pepsi", "Sprite"];
+
+// // softDrinks[0];
+// // softDrinks[1];
+// // softDrinks[2];
+// // softDrinks[3];
+
+// for (var i = 0; i < softDrinks.length; i++) {
+// //     console.log(softDrinks[i]);
+// }
+
+// // for (var k in softDrinks) {
+// //     console.log(softDrinks[k]);
+//     softDrinks[k] = softDrinks[k].toUpperCase();
+//     // softDrinks[2] = "Atubao";
+// }
+// softDrinks.push("Kape na lang", "dog", "cat", "monkey");
+// console.log(softDrinks);
+// console.log(softDrinks.length);
+// var middle = (softDrinks.length)/2;
+// console.log(middle);
+// var popped = softDrinks.pop();
+// console.log(popped);
+// var deleted = softDrinks.splice(Number(middle),1);
+// console.log(deleted);
+// console.log(softDrinks);
+
+var animals = ["aso","pusa", "kabayo", "unggoy", "lamok", "ibon", "kalabaw", "paru-paru", "buwaya"];
+
+for (var a in animals) {
+    console.log(animals[a]);
+}
+animals.push("Lion",
+"Tiger",
+"Goat",
+"Horse",
+"Donkey",
+"Dog",
+"Cat",
+"Pig",
+"dolphin","lizard","frog")
+console.log(animals.length);
+console.log(animals);
+
+var deleted = animals.splice(animals.length/4,1);
+console.log(animals.length/4);
+
+console.log(deleted);
+console.log(animals);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* var val = 67;
 var order = "adobo";
 
@@ -100,11 +234,9 @@ if ( confirm (" kumain ka na?")) {
 */
 
 
-var answer = prompt ("What is the password?");
+// var answer = prompt ("What is the password?");
 
-while (answer != "1234") {
-    answer = prompt ("What is the password?", "Wrong Password!");
-}
-alert ("May tama ka! Welcome!");
-
- 
+// while (answer != "1234") {
+//     answer = prompt ("What is the password?", "Wrong Password!");
+// }
+// alert ("May tama ka! Welcome!");
