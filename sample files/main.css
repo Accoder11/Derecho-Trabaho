@@ -1,0 +1,12 @@
+.tile {
+    padding: 20px 10px;
+    background: gray;
+    border: 1px solid black;
+}
+.main {
+    background: blue;
+
+}
+.desc {
+    background: green;
+}
