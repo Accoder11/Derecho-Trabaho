@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 500px;
+    height: 60vh;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row {
+    background-color: pink;
+    
+}
+.col, .col-6 {
+    border: 1px solid black;
+    margin: 10px;
+}
+.enteredNumbers-row {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: right;
+    height: 35px;
+
+}
+.output-row {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: right;
+    height: 45px;
+}
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
